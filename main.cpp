@@ -5,7 +5,6 @@ using namespace std;
 int main()
 {
   string color1;
-  string color2;
   int point=0;
 
   //first picture used

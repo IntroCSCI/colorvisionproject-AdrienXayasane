@@ -2,7 +2,7 @@
 Red Color Blind Test
 ## Description
 
-We run our basic color blind test 
+You are prompted to answer a question and if you get the question wrong it probably means you are color blind of that color. 
 
 ## Developer
 
@@ -19,28 +19,33 @@ g++ --std=c++11 main.cpp -o cvp
 
 Here is an example of the program running:
 
-```
-!!!Replace with an example of the program running with user interaction!!!
+``` g++ -std=c++11 main.cpp -o cvp; ./cvp
+First question. What color do you see out of these two?
+red
+You get a point.
+Second question. What color do you see out of these two?
+green
+You get a point.
 ```
 
 ## C++ Guide
 
 ### Variables and Data Types
 
-!!!Replace with a summary and examples of how multiple variables have been used with a variety of data types and why they have been used effectively and appropriately!!!
+The only variable I used was my string color1 and then I set temporary variables in my statements and loops. 
 
 ### Input and Output
 
-!!!Replace with a summary and examples of how input and output have been used effectively and appropriately!!!
+You are giving an option to input a answer and if your answer matches the answer I have set then you are good. 
 
 ### Decisions
 
-!!!Replace with a summary and examples of how multiple decision constructs have been used effectively and appropriately!!!
+When you run my test, you are giving an option to type a color you see. If you answer wrong, it'll repeat the question. 
 
 ### Iteration
 
-!!!Replace with a summary and examples of how iteration has been used effectively and appropriately!!!
+My program keeps asking the question until you get it right. 
 
 ### File Input and Output
 
-!!!Replace with a summary and examples of how input and/or output of files have been used effectively and appropriately!!!
+I didn't do this part because I don't understand how to. 
